@@ -1,0 +1,26 @@
+<head>
+  <script src="https://fb.me/react-15.1.0.js"></script>
+  <script src="https://fb.me/react-dom-15.1.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+</head>
+<body>
+
+</body>
+
+<script type="text/jsx">
+  // define a react component class
+  var HelloWord = React.createClass({
+    render: function() {
+      return <div>
+        Hello World
+      </div>
+    }
+  });
+
+  // ask react to render this class
+  var element = React.createElement(HelloWorld);
+
+  // When we ask React to render this class, we will tell it where to place the rendered element in the dom.
+  ReactDOM.render(element, document.body);
+
+</script>
