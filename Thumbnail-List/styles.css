@@ -1,0 +1,7 @@
+.thumbnailList {
+  display: flex;
+}
+
+.thumbnail {
+  flex: 1;
+}
